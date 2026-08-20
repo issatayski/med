@@ -1,6 +1,0 @@
-import{c as i,d as e,b as t,t as a,e as c,g as o,R as l,h as r,x as d}from"./index-CgCJao2Z.js";import{_ as m}from"./BrandMark-BV89xeKp.js";import{c as p}from"./createLucideIcon-DyWDbq9F.js";import{A as _}from"./arrow-right-DsycdheC.js";/**
- * @license @lucide/vue v1.31.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const f=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20",key:"13o1zl"}],["path",{d:"M2 12h20",key:"9i4pu4"}]],x=p("globe",f),h={class:"flex min-h-screen flex-col items-center justify-center px-5 py-16 text-center"},u={class:"mt-5 text-2xl font-semibold tracking-tight text-brand-900"},y={class:"mt-2 max-w-md text-sm leading-relaxed text-slate-600"},g={class:"mt-6 flex flex-wrap items-center justify-center gap-2"},b={class:"btn-secondary pointer-events-none opacity-70"},$={__name:"LandingView",setup(k){return(s,n)=>(d(),i("div",h,[e(m,{size:56}),t("h1",u,a(s.$t("app.name")),1),t("p",y,a(s.$t("landing.soon")),1),t("div",g,[e(o(l),{to:{name:"dashboard"},class:"btn-primary"},{default:c(()=>[r(a(s.$t("app.subtitle"))+" ",1),e(o(_),{size:16})]),_:1}),t("span",b,[e(o(x),{size:16}),n[0]||(n[0]=r(" ru / kk ",-1))])])]))}};export{$ as default};

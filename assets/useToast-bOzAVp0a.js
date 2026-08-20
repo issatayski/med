@@ -1,1 +1,0 @@
-import{r as i}from"./index-CgCJao2Z.js";const o=i([]);let r=0;function n(s,e){const t=++r;return o.push({id:t,text:s,tone:e}),setTimeout(()=>c(t),4200),t}function c(s){const e=o.findIndex(t=>t.id===s);e!==-1&&o.splice(e,1)}function f(){return{success:s=>n(s,"success"),error:s=>n(s,"error"),info:s=>n(s,"info")}}export{c as d,o as t,f as u};
