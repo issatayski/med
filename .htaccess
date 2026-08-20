@@ -1,0 +1,17 @@
+# Фоллбэк для клиентских роутов SPA (/crm/patients/12 → index.html).
+# Дублируется на уровне PHP в httpdocs/index.php — на nginx-конфигурациях
+# Plesk .htaccess может игнорироваться.
+#
+# Файл лежит в public/, поэтому Vite копирует его в сборку и он не теряется
+# при emptyOutDir.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /crm/
+
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    RewriteRule ^ index.html [L]
+</IfModule>
